@@ -1,0 +1,4 @@
+<h3>Rehearsal Dinner, Ceremony and Reception Photos </h3>
+<p><object id="MediaPlayer" width=320 height=286 classid="CLSID:22D6f312-B0F6-11D0-94AB-0080C74C7E95" standby="Loading Windows Media Player components..." type="application/x-oleobject" codebase="http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,4,7,1112"><param name="filename" value="images/rehearsal-ceremony-reception.wmv"><param name="Showcontrols" value="False"><param name="autoStart" value="True"><embed type="application/x-mplayer2" src="images/rehearsal-ceremony-reception.wmv" name="MediaPlayer" width=320 height=240></embed></object></p>
+<p>Duration 02:26 </p>
+<p>More photos can be found on Amy's dad's Web site: (<a href="http://www.dennyp.com/wedding/">http://www.dennyp.com/wedding/</a>) </p>

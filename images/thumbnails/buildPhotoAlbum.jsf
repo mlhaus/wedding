@@ -1,0 +1,124 @@
+App.progressCountTotal = 15;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///C|/wamp/www/amy-marc/images/marc_childhood/tub.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'tub.jpg';
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/tub_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/tub_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/tub_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/tub_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/tub_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/tub_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/wamp/www/amy-marc/images/marc_childhood/santa.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'santa.jpg';
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/santa_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/santa_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/santa_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/santa_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/santa_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/santa_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/wamp/www/amy-marc/images/marc_childhood/pledgeofallegiance.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = 'pledgeofallegiance.jpg';
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/pledgeofallegiance_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/pledgeofallegiance_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/pledgeofallegiance_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/pledgeofallegiance_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/pledgeofallegiance_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/pledgeofallegiance_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/wamp/www/amy-marc/images/marc_childhood/pirate.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = 'pirate.jpg';
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/pirate_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/pirate_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/pirate_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/pirate_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/pirate_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/pirate_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/wamp/www/amy-marc/images/marc_childhood/parade.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = 'parade.jpg';
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/parade_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/parade_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/parade_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/parade_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/parade_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/parade_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/wamp/www/amy-marc/images/marc_childhood/overalls.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = 'overalls.jpg';
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/overalls_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/overalls_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/overalls_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/overalls_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/overalls_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/overalls_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/wamp/www/amy-marc/images/marc_childhood/muddyfeet.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = 'muddyfeet.jpg';
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/muddyfeet_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/muddyfeet_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/muddyfeet_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/muddyfeet_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/muddyfeet_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/muddyfeet_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/wamp/www/amy-marc/images/marc_childhood/kindergarten.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = 'kindergarten.jpg';
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/kindergarten_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/kindergarten_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/kindergarten_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/kindergarten_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/kindergarten_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/kindergarten_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/wamp/www/amy-marc/images/marc_childhood/hawk_christmas.jpg');
+App.progressCountCurrent = 9;
+App.batchStatusString = 'hawk_christmas.jpg';
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/hawk_christmas_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/hawk_christmas_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/hawk_christmas_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/hawk_christmas_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/hawk_christmas_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/hawk_christmas_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/wamp/www/amy-marc/images/marc_childhood/gingerbread.jpg');
+App.progressCountCurrent = 10;
+App.batchStatusString = 'gingerbread.jpg';
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/gingerbread_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/gingerbread_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/gingerbread_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/gingerbread_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/gingerbread_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/gingerbread_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/wamp/www/amy-marc/images/marc_childhood/firstdayofschool.jpg');
+App.progressCountCurrent = 11;
+App.batchStatusString = 'firstdayofschool.jpg';
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/firstdayofschool_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/firstdayofschool_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/firstdayofschool_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/firstdayofschool_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/firstdayofschool_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/firstdayofschool_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/wamp/www/amy-marc/images/marc_childhood/cute.jpg');
+App.progressCountCurrent = 12;
+App.batchStatusString = 'cute.jpg';
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/cute_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/cute_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/cute_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/cute_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/cute_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/cute_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/wamp/www/amy-marc/images/marc_childhood/crazyhat.jpg');
+App.progressCountCurrent = 13;
+App.batchStatusString = 'crazyhat.jpg';
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/crazyhat_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/crazyhat_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/crazyhat_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/crazyhat_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/crazyhat_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/crazyhat_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/wamp/www/amy-marc/images/marc_childhood/beach.jpg');
+App.progressCountCurrent = 14;
+App.batchStatusString = 'beach.jpg';
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/beach_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/beach_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/beach_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/beach_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/beach_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/beach_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///C|/wamp/www/amy-marc/images/marc_childhood/umbrella.jpg');
+App.progressCountCurrent = 15;
+App.batchStatusString = 'umbrella.jpg';
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/umbrella_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/umbrella_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/images/umbrella_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/umbrella_jpg.jpg') || confirm('file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/umbrella_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///C|/wamp/www/amy-marc/images/marc_childhood/2/thumbnails/umbrella_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';
