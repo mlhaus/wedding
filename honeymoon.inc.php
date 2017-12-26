@@ -1,3 +1,0 @@
-<h3>Honeymoon   </h3>
-<p>Our honeymoon began on June 10, 2008 with a 2-night stay at the  <a href="http://www.hoteles-silken.com/portal/html/index.php?lang=en" target="_blank">Silken Gran Havana hotel</a> in Barcelona, Spain. On June 12, will went on a  4-night Mediterranean cruise on the Royal Caribbean ship &quot;Navigator of the Seas&quot;. See <a href="index.php?content=honeymoonphotos">pictures from our honeymoon</a> here. See <a href="index.php?content=honeymoonvideos">videos from our honeymoon</a> here. </p>
-<p><img src="images/navigator.jpg" alt="Navigator of the Seas" width="400" height="266" /></p>
